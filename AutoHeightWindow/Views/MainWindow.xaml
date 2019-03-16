@@ -1,0 +1,21 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:AutoHeightWindow.ViewModels;assembly=AutoHeightWindow"
+        Icon="resm:AutoHeightWindow.Assets.avalonia-logo.ico"
+        Title="AutoHeightWindow">
+
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
+
+    <StackPanel x:Name="MainPanel">
+        <StackPanel x:Name="TextBlocks">
+
+
+        </StackPanel>
+        <Button Click="AddTextBlock">Add Row</Button>
+        
+    </StackPanel>
+    
+  
+</Window>
